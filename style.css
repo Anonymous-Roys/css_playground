@@ -3,7 +3,7 @@ body{
     place-content: center;
     font-family: system-ui;
     font-size: 1.125rem;
-    background: rgba(3, 3, 48, 0.89);
+    background: rgba(3, 3, 48, 0.427);
     text-align: center;
     
 }
@@ -19,7 +19,7 @@ body{
     background: rgb(1, 1, 37);
     border-radius: 0.5rem;
     
-    box-shadow: 0 o.5rem 1rem -0.25rem rgba(24, 24, 26, 0.767);
+    box-shadow: 0 0.5rem 1rem -0.25rem rgba(24, 24, 26, 0.767);
 }
 
 .scroller{
@@ -66,3 +66,35 @@ body{
 
     }
 }
+
+
+        
+       #container2{
+        background: #514d4d url("./flowers.webp") no-repeat;
+            background-blend-mode: lighten;
+       }
+    
+        p {
+            background-color: antiquewhite;
+            padding: 6px;
+            border-radius: 5px;
+        }
+    
+    
+    #colourful{
+        display: flex;
+        justify-content:space-around ;
+    }
+        #first {
+            height: 400px;
+            width: 400px;
+            background: repeating-radial-gradient(rgb(255, 0, 0) 5%, rgb(255, 255, 0)10%, green 15%);
+            border-radius: 50%;
+        }
+    
+        #second {
+            height: 400px;
+            width: 400px;
+            background: linear-gradient(190deg, rgb(255, 0, 0), rgb(255, 255, 0), green);
+            
+        }
