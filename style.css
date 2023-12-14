@@ -21,9 +21,14 @@ body{
     
     box-shadow: 0 0.5rem 1rem -0.25rem rgba(24, 24, 26, 0.767);
 }
+.that{
+    display: flex;
+    justify-content: center;
+}
 
 .scroller{
     max-width: 540px;
+   
 }
 
 
