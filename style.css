@@ -89,6 +89,7 @@ body{
     #colourful{
         display: flex;
         justify-content:space-around ;
+        flex-wrap: wrap;
     }
         #first {
             height: 400px;
